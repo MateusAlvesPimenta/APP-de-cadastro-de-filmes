@@ -1,4 +1,4 @@
-# App de cadastro de filmes em CSharp
+# App de cadastro de filmes
 
 🚀 atividade do bootcamp Impulso FullStack Web Developer da Digital Inovation One
 
