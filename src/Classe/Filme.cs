@@ -1,33 +1,26 @@
 namespace APP_de_cadastro.src
 {
-    public class Filme : EntidadeBase
+    public class Filme
     {
-        private string categoria {get;set;}
-        private string nome {get;set;}
-        private string descricao {get;set;}
-        private int lancamento {get;set;}
-        private bool excluido {get;set;}
+        public int Id {get; set;}
+        public string Categoria {get;set;}
+        public string Nome {get;set;}
+        public string Descricao {get;set;}
+        public int Lancamento {get;set;}
+        public bool excluido {get;set;}
 
         public Filme(int id, string categoria, string nome, string descricao,int lancamento)
         {
-            this.id = id;
-            this.categoria = categoria;
-            this.nome = nome;
-            this.descricao = descricao;
-            this.lancamento = lancamento;
+            this.Id = id;
+            this.Categoria = categoria;
+            this.Nome = nome;
+            this.Descricao = descricao;
+            this.Lancamento = lancamento;
             this.excluido = false;
         }
         public override string ToString()
         {
-            return $" \n Id - {this.id} \n Filme - {this.nome} \n categoria - {this.categoria} \n Descrição - {this.descricao} \n Ano de lançamento - {this.lancamento} \n";
-        }
-        public int Id()
-        {
-            return this.id;
-        }
-        public string Nome()
-        {
-            return $"{this.nome}";
+            return $" \n Id - {this.Id} \n Filme - {this.Nome} \n categoria - {this.Categoria} \n Descrição - {this.Descricao} \n Ano de lançamento - {this.Lancamento} \n";
         }
         public void Excluir()
         {

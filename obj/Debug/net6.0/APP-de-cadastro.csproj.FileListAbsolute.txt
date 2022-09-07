@@ -13,3 +13,18 @@ C:\Users\Filipe\Desktop\Dio novo projeto\APP-de-cadastro\obj\Debug\net6.0\refint
 C:\Users\Filipe\Desktop\Dio novo projeto\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.pdb
 C:\Users\Filipe\Desktop\Dio novo projeto\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.genruntimeconfig.cache
 C:\Users\Filipe\Desktop\Dio novo projeto\APP-de-cadastro\obj\Debug\net6.0\ref\APP-de-cadastro.dll
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\bin\Debug\net6.0\APP-de-cadastro.exe
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\bin\Debug\net6.0\APP-de-cadastro.deps.json
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\bin\Debug\net6.0\APP-de-cadastro.runtimeconfig.json
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\bin\Debug\net6.0\APP-de-cadastro.dll
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\bin\Debug\net6.0\APP-de-cadastro.pdb
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.csproj.AssemblyReference.cache
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.dll
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\refint\APP-de-cadastro.dll
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.pdb
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\APP-de-cadastro.genruntimeconfig.cache
+C:\Users\Filipe\Desktop\Mateus\Programação\Projetos\APP-de-cadastro\obj\Debug\net6.0\ref\APP-de-cadastro.dll

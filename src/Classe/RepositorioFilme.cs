@@ -2,35 +2,35 @@ namespace APP_de_cadastro.src
 {
     public class RepositorioFilme : IRepositorio<Filme>
     {
-        List<Filme> filmesGuardados = new List<Filme>();
+        List<Filme> FilmesGuardados = new List<Filme>();
         public void Alterar(int id, Filme objeto)
         {
-            filmesGuardados[id] = objeto;
+            FilmesGuardados[id] = objeto;
         }
 
         public void Excluir(int id)
         {
-            filmesGuardados[id].Excluir();
+            FilmesGuardados[id].Excluir();
         }
 
         public int GerarId()
         {
-            return filmesGuardados.Count();
+            return FilmesGuardados.Count();
         }
 
         public void Inserir(Filme objeto)
         {
-            filmesGuardados.Add(objeto);
+            FilmesGuardados.Add(objeto);
         }
 
         public List<Filme> Listar()
         {
-            return filmesGuardados;
+            return FilmesGuardados;
         }
 
         public Filme Visualizar(int id)
         {
-            return filmesGuardados[id];
+            return FilmesGuardados[id];
         }
     }
 }

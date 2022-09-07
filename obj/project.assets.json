@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Dio novo projeto\\APP-de-cadastro\\APP-de-cadastro.csproj",
+      "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Mateus\\Programação\\Projetos\\APP-de-cadastro\\APP-de-cadastro.csproj",
       "projectName": "APP-de-cadastro",
-      "projectPath": "C:\\Users\\Filipe\\Desktop\\Dio novo projeto\\APP-de-cadastro\\APP-de-cadastro.csproj",
+      "projectPath": "C:\\Users\\Filipe\\Desktop\\Mateus\\Programação\\Projetos\\APP-de-cadastro\\APP-de-cadastro.csproj",
       "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filipe\\Desktop\\Dio novo projeto\\APP-de-cadastro\\obj\\",
+      "outputPath": "C:\\Users\\Filipe\\Desktop\\Mateus\\Programação\\Projetos\\APP-de-cadastro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Filipe\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -2,12 +2,11 @@
 using static APP_de_cadastro.src.Genero;
 
 using static System.Console;
-class program
+class Program
 {
 
-    public static RepositorioFilme filmeSalvo = new RepositorioFilme();
-
-    public const string textoInicial = 
+    public static RepositorioFilme FilmeSalvo = new RepositorioFilme();
+    public const string TextoInicial = 
 @"DevFilmes iniciado!!!
 Digite a opção desejada:
 1- Cadastrar Filme.
@@ -22,13 +21,13 @@ X- Sair.
     static void Main(string[] Args)
     {
 
-        string entrada = string.Empty;
+        string Entrada = string.Empty;
 
-        OpcaoUsuario(ref entrada);
+        OpcaoUsuario(ref Entrada);
 
-        while(entrada != "X")
+        while(Entrada != "X")
         {
-            switch(entrada)
+            switch(Entrada)
             {
                 case "1":
                     CadastrarFilme(-1);
@@ -50,7 +49,7 @@ X- Sair.
                     break;
                 default: throw new ArgumentOutOfRangeException("Valor Invalido");
             }
-            OpcaoUsuario(ref entrada);
+            OpcaoUsuario(ref Entrada);
         }
         WriteLine("Foi um prazer atender você, até a proxima!!!");
     }
@@ -58,7 +57,7 @@ X- Sair.
     private static void OpcaoUsuario(ref string entrada)
     {
 
-        WriteLine(textoInicial);
+        WriteLine(TextoInicial);
         entrada = ReadLine().ToUpper();
 
     }
@@ -66,11 +65,11 @@ X- Sair.
     private static void CadastrarFilme(int id)
     {
         WriteLine("Gênero do filme");
-        for (int i=0; i < generos.Length;i++)
+        for (int i=0; i < Generos.Length;i++)
         {
-            WriteLine($"{i} {generos[i]}");
+            WriteLine($"{i} {Generos[i]}");
         }
-        int generoFilme = int.Parse(ReadLine());
+        int GeneroFilme = int.Parse(ReadLine());
 
         WriteLine("Qual o nome do filme?");
         string nomeFilme = ReadLine();
@@ -83,30 +82,30 @@ X- Sair.
 
         if(id == -1)
         {
-            Filme novoFilme = new Filme(filmeSalvo.GerarId(),generos[generoFilme],nomeFilme,descricaoFilme,lancamentoFilme);
-            filmeSalvo.Inserir(novoFilme);
+            Filme novoFilme = new Filme(FilmeSalvo.GerarId(),Generos[GeneroFilme],nomeFilme,descricaoFilme,lancamentoFilme);
+            FilmeSalvo.Inserir(novoFilme);
         }
         else
         {
-            Filme novoFilme = new Filme(id,generos[generoFilme],nomeFilme,descricaoFilme,lancamentoFilme);
-            filmeSalvo.Alterar(id,novoFilme);
+            Filme novoFilme = new Filme(id,Generos[GeneroFilme],nomeFilme,descricaoFilme,lancamentoFilme);
+            FilmeSalvo.Alterar(id,novoFilme);
         }
     }
 
     private static void ListarFilmes()
     {
-        var filmes = filmeSalvo.Listar();
+        // var Filmes = FilmeSalvo.Listar();
 
-        if(filmes.Count() < 1)
+        if(FilmeSalvo.Listar().Count() < 1)
         {
             WriteLine("\n Não há filmes cadastrados \n");
         }
         else
         {
-            foreach( var item in filmes)
+            foreach( var item in FilmeSalvo.Listar())
             {
                 string excluido = item.ValorExcluido() ? "---excluido---" : string.Empty;
-                WriteLine($" Id {item.Id()} Nome {item.Nome()} {excluido} \n");
+                WriteLine($" Id {item.Id} Nome {item.Nome} {excluido} \n");
             }
         }
     }
@@ -114,9 +113,9 @@ X- Sair.
     private static void VisualizarFilme()
     {
         WriteLine("Insira o Id do filme que deseja visualizar");
-        int idVisualizar = int.Parse(ReadLine());
+        int IdVisualizar = int.Parse(ReadLine());
 
-        WriteLine(filmeSalvo.Visualizar(idVisualizar));
+        WriteLine(FilmeSalvo.Visualizar(IdVisualizar));
     }
 
     private static void AlterarFilme()
@@ -131,7 +130,7 @@ X- Sair.
     {
         WriteLine("Insira o Id do filme que deseja excluir");
         int idExcluir = int.Parse(ReadLine());
-        filmeSalvo.Excluir(idExcluir);
+        FilmeSalvo.Excluir(idExcluir);
     }
 
 }

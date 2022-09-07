@@ -7,7 +7,7 @@
 
 # 🤔 Qual o objetivo deste projeto ?
 
-  O foco desta atividade é praticar POO (Programação Orientada a Objetos), conhecimento a respeito de classes abstratas, interfaces, como salvar dados em memória, ETC.
+  O foco desta atividade é criar um CRUD, praticar POO, conhecimento a respeito de classes abstratas, interfaces, como salvar dados em memória, ETC.
   
 ## 🕹️ O que faz este APP?
 
